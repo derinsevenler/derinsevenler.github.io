@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Thin Film Reflectivity</title>
+	<script type="text/javascript" src="complex.min.js"></script>
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+	<link rel="stylesheet" href="thinFilms/style.css">
+</head>
+	
+<body>
+
+
+<table>
+	<td>
+		<div id="graph"></div>
+	</td>
+	<td>
+		<div id="schematic"></div>
+		<div><center>
+			Incident angle: <span id="thetaDisplay"></span><br>
+			<input id="thetaSlider" type="range" min="0" max="90" value="0">
+			<br><br>
+		</center></div>
+		<div><center>
+			Light is traveling from: <select class="bulkSelector" id="matIselect"></select> into <select class="bulkSelector" id="matFselect"></select>
+			<br><br>
+		</center></div>
+		<div id="filmControl"></div>
+		<div><center><button id="addFilm">Add a layer</button></center></div>
+		</table>
+	</td>
+</table>
+
+	
+
+	<!-- <div>
+		<p>
+			The optical properties of thin films are very useful in a variety of fields, from biosensing to solar panel design. 
+		</p>
+
+		<h3>The Math</h3>
+
+		<h4>The Fresnel Equations</h4>
+		<p>
+			For the moment, just consider a single interface between two materials (let's call them 'material 1' and 'material 2'). Consider a light wave that is traveling through material 1 towards the interface. How much of that light is reflected at the interface, and how much makes it through to material 2, can be calculated diretly using the Fresnel Equations.
+		</p>
+		<p>$$ r_s = \frac{ n_1 cos(\theta_1) - n_2 cos(\theta_2) }{n_1 cos(\theta_1) + n_2 cos(\theta_2)},
+		r_p = \frac{ n_2 cos(\theta_1) - n_1 cos(\theta_2) }{n_2 cos(\theta_1) + n_1 cos(\theta_2)}$$</p>
+
+		<p>$$ t_s = \frac{ 2n_1 cos(\theta_1) }{n_1 cos(\theta_1) + n_2 cos(\theta_2)},
+		r_p = \frac{ 2n_1 cos(\theta_1) }{n_2 cos(\theta_1) + n_1 cos(\theta_2)}$$</p>
+
+		<p>
+			To do:<br>
+			* add the schematic<br>
+			* center the theta slider<br>
+			* change x-axis to wave number<br>
+			* write up the rest of the report
+		</p>
+
+	</div> -->
+
+	<h3>Credits</h3>
+	<p>
+		Refractive Index data of <a href="">Water</a>, <a href="http://refractiveindex.info/?shelf=other&book=pmma_resists&page=Microchem495">PMMA</a>, <a href="http://refractiveindex.info/?shelf=main&book=Si&page=Vuye-20C">Silicon</a>, and <a href="">Silicon Oxide (SiO2)</a> taken from <a href="http://refractiveindex.info">refractiveindex.info</a>
+	</p>
+	<p>
+		Built using:<br>
+		<a href="http://d3js.org">D3.js</a> to manipulate html based on data.<br>
+		<a href="https://github.com/patrickroberts/complex-js">Complex-js</a> to perform complex arithmetic.<br>
+		<a href="https://www.mathjax.org/">MathJax</a> to notate equations in html.
+	</p>
+
+	<footer>
+		<aside>5 February, 2016</aside>
+		<a href="http://www.bu.edu/people/derin">Derin Sevenler</a>. MIT Licensed.
+	</footer>
+
+	<!-- The javascript -->
+	<script type="text/javascript" src="refractiveIndices.js"></script>
+	<script type="text/javascript" src="thinFilmPhysics.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>

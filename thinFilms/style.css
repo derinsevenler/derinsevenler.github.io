@@ -1,0 +1,60 @@
+.html .doctype, .javascript .number {
+    color: #31a354;
+}
+
+html {
+    min-width: 960px;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,sans-serif;
+    margin: 0 auto 1em;
+    position: relative;
+    width: 960px;
+}
+
+h2 a {
+    /*color: #ccc;*/
+    left: -20px;
+    position: absolute;
+    width: 740px;
+	color: steelblue;
+}
+a:not(:hover) {
+    text-decoration: none;
+}
+footer {
+    margin-top: 8em;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+.filmCtrl {
+    text-align: center;
+}
+.filmCtrl:hover {background-color: #f5f5f5}
+
+/*styles for graph*/
+path {
+	stroke: steelblue;
+	stroke-width: 1;
+	fill: none;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line, .x.axis path {
+	fill: none;
+	stroke: #000;
+}
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+#refLabel {
+	fill: steelblue;
+}

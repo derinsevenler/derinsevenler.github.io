@@ -12,12 +12,7 @@ var sample = {
 	{
 		mat: "SiO2",
 		d: 0.5
-	},
-	{
-		mat: "Water",
-		d: 0.6
-	}
-	]
+	}]
 };
 
 // theta control

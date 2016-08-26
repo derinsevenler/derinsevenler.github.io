@@ -67,7 +67,7 @@ var rayReflectivity = function (nVec, d, lambda, theta0, rp) {
 		theta = rdata.theta2;
 
 		rdata = fresnel(n1,n2,theta);
-		delta = 2*Math.PI*d[idx-1]*n1/lambda;
+		delta = 2*Math.PI*d[idx-1]*n1/lambda/Math.cos(theta);
 
 		// update Ms and Mp - pretty complex...
 		deltaMat = [ [ Complex.exp(Complex(0,-delta)), Complex(0,0) ], [ Complex(0,0), Complex.exp(Complex(0,delta)) ] ];

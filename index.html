@@ -24,7 +24,7 @@
 			</table>
 		</center>
 
-		<p>I'm a postdoc in the <a target="_blank" href="http://ultra.bu.edu">Optical Characterization & Nanophotonics Lab</a> at Boston University. My current research is focused on designing new molecular diagnostic technologies using principles from nano-photonics, and applying those methods to address today's challenges in cancer and infectious disease.</p>
+		<p>I'm a postdoc in the <a target="_blank" href="http://ultra.bu.edu">Optical Characterization & Nanophotonics Lab</a> at Boston University. My current research is focused on designing new molecular diagnostic technologies using principles from nano-optics, and applying them to address today's challenges in cancer and infectious disease.</p>
 
 		<h2>Education</h2>
 		<ul>
@@ -33,9 +33,17 @@
 		</ul>
 
 		<h2>Publications</h2>
-		<p>You can also browse my publications on <a target="_blank" href="https://scholar.google.com/citations?user=2QAce2gAAAAJ">Google Scholar</a> or <a target="_blank" href="https://www.researchgate.net/profile/Derin_Sevenler">ResearchGate</a>.</p>
+		<p>Citation information is probably most accurate on <a target="_blank" href="https://scholar.google.com/citations?user=2QAce2gAAAAJ">Google Scholar</a>.</p>
 		
 		<ul>
+			<li>
+				<b>Sevenler, D.</b>, Daaboul, G., Ekiz-Kanik, F. & Ünlü, M. S. A digital microarray using interferometric detection of plasmonic nanorod labels. arXiv preprint arXiv:1801.07649 (2018). <a target="_blank" href="https://arxiv.org/ftp/arxiv/papers/1801/1801.07649.pdf">PDF</a>
+				<details>
+					<summary>View Abstract</summary>
+					<p class="abstract">DNA and protein microarrays are a high-throughput technology that allow the simultaneous quantification of tens of thousands of different biomolecular species. The mediocre sensitivity and dynamic range of traditional fluorescence microarrays compared to other techniques have been the technology's Achilles' Heel, and prevented their adoption for many biomedical and clinical diagnostic applications. Previous work to enhance the sensitivity of microarray readout to the single-molecule ('digital') regime have either required signal amplifying chemistry or sacrificed throughput, nixing the platform's primary advantages. Here, we report the development of a digital microarray which extends both the sensitivity and dynamic range of microarrays by about three orders of magnitude. This technique uses functionalized gold nanorods as single-molecule labels and an interferometric scanner which can rapidly enumerate individual nanorods by imaging them with a 10x objective lens. This approach does not require any chemical enhancement such as silver deposition, and scans arrays with a throughput similar to commercial fluorescence devices. By combining single-nanoparticle enumeration and ensemble measurements of spots when the particles are very dense, this system achieves a dynamic range of about one million directly from a single scan.</p>
+				</details>
+			</li>
+
 			<li>
 				<b>Sevenler, D.</b>, Avci, O. & Ünlü, M. S. Quantitative interferometric reflectance imaging for the detection and measurement of biological nanoparticles. Biomed. Opt. Express, BOE 8, 2976–2989 (2017). <a target="_blank" href="resources/sevenler_2017_quantitative_IRIS.pdf">PDF</a>
 				<details>
@@ -87,10 +95,13 @@
 
 		<h2>Links to online software</h2>
 
-		<a href="https://github.com/derinsevenler/iris-processing">IRIS Processing</a> is a MATLAB utility for making measurements with IRIS, a label-free biosensing technology. It's based on <a href="http://www.tandfonline.com/doi/abs/10.1080/09500340.2015.1117668">this paper</a>. If you're interested in IRIS Processing or wave optics in general, you might also be interested in this <a href="http://www.derinsevenler.com/thinFilms.html">interactive implementation of the reflectance of thin films</a>.
+		<h3>Simulations of light scattering</h3>
+		<p><a href="https://github.com/derinsevenler/iris-processing">IRIS Processing</a> is a MATLAB utility for making high-throughput measurements with IRIS, a label-free biosensing technology. It's described in <a href="resources/sevenler_2015_numerical_techniques.pdf">this paper</a>. If you're interested in IRIS Processing or wave optics in general, you might also be interested in this <a href="http://www.derinsevenler.com/thinFilms.html">interactive implementation of the reflectance of thin films</a>.</p>
+
+		<p><a href="https://github.com/derinsevenler/sp-iris-bem">SP-IRIS-BEM</a> is a collection of MATLAB functions for simulating single-nanoparticles imaged with IRIS, using the excellent <a href="http://physik.uni-graz.at/mnpbem/">Metallic Nanoparticle Boundary Element Method (MNPBEM) toolbox</a> developed by <a href="https://www.sciencedirect.com/science/article/pii/S0010465515001228">others</a>. It's described in <a href="resources/sevenler_2017_quantitative_IRIS.pdf">this paper</a>.</p>
 
 		<h3>Device Adapters for Micro-Manager </h3>
-		<p><a href="https://micro-manager.org">Micro-manager</a> is an open-source software toolkit for controlling scientific microscopes. The below hardware adapters aren't part of the core micro-manager project but they are all BSD licensed, so feel free to use & improve them if they'll help your microscopy application.</p>
+		<p><a href="https://micro-manager.org">Micro-manager</a> is an open-source software toolkit for controlling scientific microscopes. The below hardware adapters aren't part of the core micro-manager project but they are all BSD licensed, so feel free to use & improve them if they'll help your microscopy application:</p>
 		<ul>
 			<li><a href="https://github.com/derinsevenler/micro-manager/tree/USB3VisionCamera">GenICam:</a> a driver for USB3Vision and GigEVision cameras that comply to the Generic Interface for Cameras.</li>
 			<li><a href="https://github.com/derinsevenler/micro-manager/tree/ThorlabsKinesisStage">ThorlabsKinesisStage:</a> a driver for Thorlabs linear postioners using the Kinesis software interface.</li>
@@ -99,8 +110,7 @@
 
 
 		<footer>
-			Last updated January 2018
-			Copyright &#169 2016-2018 Derin Sevenler
+			Last updated February 2018. Copyright &#169 2016-2018 Derin Sevenler.
 		</footer>
 	</body>
 

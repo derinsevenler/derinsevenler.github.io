@@ -1,0 +1,128 @@
+- title: Spatial periodicity in growth plate shear mechanical properties is disrupted by vitamin D deficiency
+  authors: <strong>Derin Sevenler</strong>, Mark Buckley, Grace Kim, Marjolein C.R> van der Meulen, and Lawrence Bonassar
+  year: 2013
+  publication: Journal of Biomechanics
+  link: https://doi.org/10.1016/j.jbiomech.2013.04.023
+  tags: biomechanics
+  description: We measured the mechanical properties of growth plate cartilage, which is structured like a carpet of densely packed and aligned fibers. This important structure is disrupted by vitamin D deficiency in a rat model.
+  image: growth-plate-1
+  image2: growth-plate-2
+  pdf: sevenler-2013-growth-plate.pdf
+
+
+- title: Stigmatic imaging of dielectric nanoparticles in high refractive index object space
+  authors: Ryan Gelley, Steven Scherr, <strong>Derin Sevenler</strong>, and Bennett Goldberg
+  year: 2015
+  publication: Bulletin of the American Physical Society\
+  link: http://meetings.aps.org/Meeting/NES15/Event/249426
+  tags: nanophotonics
+  description: We used a solid immersion lens to image single nanoparticles. A SIL made from Spinel allows a much higher refractive index than immersion oils, which improves both imaging resolution and the polarizability (i.e. brightness) of biological nanoparticles like viruses and exosomes.
+
+
+- title: Low cost flatbed scanner label-free biosensor
+  authors: Ugur Aygun, Oguzhan Avci, Elif Seymour, <strong>Derin  Sevenler</strong>, Hakan Urey, and M. Selim Unlu
+  year: 2016
+  publication: Proceedings of SPIE
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10510/105100J/Reconstruction-in-wide-field-interferometric-microscopy-for-imaging-weakly-scattering/10.1117/12.2290259.short
+  tags: biosensing
+  description: With just a few modifications, a budget home office document scanner can be converted into a molecular biosensing instrument.
+
+
+- title: Numerical techniques for high-throughput reflectance interference biosensing
+  authors: <strong>Derin Sevenler</strong> and M. Selim Unlu
+  year: 2016
+  publication: Journal of Modern Optics
+  link: https://doi.org/10.1080/09500340.2015.1117668
+  tags: biosensing
+  description: We developed a direct algorithm for measuring the thickness of biological films by imaging spectroscopy. This replaced a nonlinear iterative solver which took about 1 hour of GPU time, per megapixel. The new algorithm on a single CPU core is about 10,000x faster, allowing us to process videos of spectroscopic data in seconds.
+  image: 
+  pdf: sevenler-2015-numerical-iris.pdf
+
+
+- title:  Real-time capture and visualization of individual viruses in complex media
+  authors: Steven Scherr, George Daaboul, Jacob Trueb, <strong>Derin Sevenler</strong>, Helen Fawcett, Bennett Goldberg, John Connor, and M. Selim Unlu
+  year: 2016
+  publication: ACS Nano
+  link: https://doi.org/10.1021/acsnano.5b07948
+  tags: diagnostics nanotechnology nanophotonics
+  description: Individual viruses can be detected based on their light scattering properties when they bind to antibodies coated on a mirrorlike substrate. We built a microfluidic flow cell and perfused serum containing ebola-pseudotyped VSV virus over the substrate, and related the rate of virus binding to viral titer.
+  image:
+  pdf: scherr-2016-real-time-capture.pdf
+
+
+- title: Robust visualization and discrimination of nanoparticles by interferometric imaging
+  authors: Jacob Trueb, Oguzhan Avci, <strong>Derin Sevenler</strong>, John Connor, and M. Selim Unlu
+  year: 2017
+  publication: IEEE Journal of Selected Topics in Quantum Electronics
+  tags: diagnostics nanotechnology photonics
+  link: https://doi.org/10.1021/acsnano.5b07948
+  description: Nanoparticles on a mirrorlike substrate are detectable by interferometric imaging, but the brightness of the particle is extremely sensitive to the focus position. We solved this problem by taking a stack of images while sweeping the focus position, and measuring the difference the . 
+  image:
+  pdf: trueb-2017-robust.pdf
+
+
+- title: Quantitative interferometric reflectance imaging for the detection and measurement of biological nanoparticles
+  authors: <strong>Derin Sevenler</strong>, Oguzhan Avci, and M. Selim Unlu
+  year: 2017
+  publication: Biomedical Optics Express
+  tags: diagnostics nanotechnology photonics
+  link: https://doi.org/10.1021/acsnano.5b07948
+  description: Individual biological nanoparticles, such as viruses and extracellular vesicles, can be detected using Interferometric Reflectance Imaging Sensing (IRIS). We describe a quantitative physical model and intuitive explanation for how IRIS works. This guides the optimization of the optical system for detecting bio-nanoparticles, and also how to estimate the size of the particle based on it's light scattering.
+  image:
+  pdf: sevenler-2017-quantitative-iris.pdf
+  highlight: yes
+
+
+- title: Surface chemistry and morphology in single particle optical imaging
+  authors: Fulya Ekiz-Kanik, <strong>Derin Sevenler</strong>, Nese Lortlar Unlu, and M. Selim Unlu
+  year: 2017
+  publication: Nanophotonics
+  tags:
+  link: https://doi.org/10.1515/nanoph-2016-0184
+  description: Optical biosensors are more than sensitive enough to detect individual bio-nanoparticles or even single biomolecules. More often than not, the limiting factor in performance is the surface chemistry.
+  image:
+  pdf: ekiz-kanik-2017-surface-chemistry.pdf
+
+
+- title: 'Digital microarrays: single-molecule readout with interferometric detection of plasmonic nanorod labels'
+  authors: <strong>Derin Sevenler</strong>, George Daaboul, Fulya Ekiz-Kanik, Nese Lortlar Unlu and M. Selim Unlu  
+  year: 2018
+  publication: ACS Nano
+  tags: diagnostics nanotechnology photonics
+  link: https://doi.org/10.1021/acsnano.8b02036
+  description: We developed a new type of DNA microarray scanner which uses light scattering from nanoparticle labels rather than fluorescence, and an interferometric scanning system. This improves the sensitivity of microarrays by 3 orders of magnitude, down to the single molecule ('digital') regime.
+  image:
+  pdf: sevenler-2018-digital-microarrays.pdf
+  highlight: yes
+
+
+- title: An enzymatic assay for rapid measurement of antiretroviral drug levels
+  authors: Ayokunle Olanrewaju, Benjamin Sullivan, Jane Zhang, Andrew Bender, <strong>Derin Sevenler</strong>, Tiffany Lo, Marta Fernandez-Suarez, Paul Drain, and Jonathan Posner
+  year: 2020
+  publication: ACS Sensors
+  tags: diagnostics
+  link: https://doi.org/10.1021/acssensors.9b02198
+  description: We developed a new way to measure the concentration of an HIV medication in a patient's system, based on the drug's specific pharmacological activity.
+  image:
+  pdf: olanrewaju-2020-enzymatic-assay.pdf
+
+- title: Reconstruction in wide-field interferometric microscopy for imaging weakly scattering biological nanoparticles with super-resolution
+  authors: Oguzhan Avci, Celal Yurdakul, <strong>Derin Sevenler</strong>, Fulya Ekiz Kanik, Alex Matlock, Lei Tian, and M. Selim Unlu
+  year: 2018
+  publication: Proceedings of SPIE
+  tags: 
+  link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10510/105100J/Reconstruction-in-wide-field-interferometric-microscopy-for-imaging-weakly-scattering/10.1117/12.2290259.short
+  description: We combined structured illumination with interferometric reflectance imaging to take high resolution pictures of nanoparticles and nanoscale structures on a mirrorlike surface. 
+  image:
+
+- title: Beating the reaction limits of biosensor sensitivity with dynamic tracking of single binding events
+  authors: <strong>Derin Sevenler</strong>, Jacob Trueb, and M. Selim Unlu
+  year: 2019
+  publication: Proceedings of the National Academy of Sciences
+  tags: diagnostics nanotechnology photonics
+  link: https://doi.org/10.1073/pnas.1815329116
+  description: Very low concentrations of molecular biomarkers can be measured by not just measuring the number of bound analyte molecules, but also tracking the duration of binding events. We use this approach to extend the sensitivity of single molecule biosensors beyond the so-called binding reaction limit, at which fewer than one analyte molecule is bound at equilibrium.
+  image:
+  pdf: sevenler-2019-dynamic-tracking
+
+  

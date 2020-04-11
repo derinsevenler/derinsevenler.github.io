@@ -1,20 +1,80 @@
 ---
-layout: home
-title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<!DOCTYPE HTML>
+<html lang="en">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<head>
+	<title>{{ site.name }}</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+	<meta name="author" content="{{ site.name }}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="/assets/css/stylesheet.css">
+</head>
+<body>
+	<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		<tr style="padding:0px">
+			<td style="padding:0px">
+				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					<tr style="padding:0px">
+						<td style="padding:2.5%;width:60%;vertical-align:middle">
+							<h1>Derin Sevenler</h1>
+							<p>
+								I'm a postdoctoral research fellow working with Mehmet Toner at the Center for Engineering in Medicine at Massachusetts General Hospital. I'm affiliated with Harvard Medical School and the Broad Institute of Harvard and MIT.
+							</p>
+							<p>
+								<a target="_blank" href="https://github.com/derinsevenler">Github</a> &nbsp;/&nbsp;
+								<a href="https://scholar.google.com/citations?user=2QAce2gAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+								<a href="https://www.linkedin.com/in/derin-sevenler"> LinkedIn </a>
+							</p>
+						</td>
+						<td style="padding:2.5%;width:40%;max-width:40%">
+							<img style="width:100%;max-width:100%" alt="profile photo" src="assets/images/sevenler_headshot_sm.jpg">
+						</td>
+					</tr>
+				</table>
+
+				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					<tr>
+						<td style="padding:2.5%;width:100%;vertical-align:middle">
+							<h2>Research</h2>
+							<p>
+								My research interest is in tackling at biomedical engineering questions using techniques from applied physics. I'm particularly interested in biological nanoparticles, like including viruses and extracellular vesicles, as well as molecular recognition and sensing in biological systems. I've developed new techniques to detect, measure, and manipulate individual biomolecules and bio-nanoparticles using techniques from nanophotonics and nanotechnology. My long-term vision is to use these techniques to address emerging challenges in infectious disease diagnostics, gene therapy, and systems & synthetic biology.
+							</p>
+						</td>
+					</tr>
+				</table>
+				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					
+					{% for pub in site.data.publications %}
+					<tr>
+						<td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+							<img src="/assets/images/{{pub.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+						</td>
+						<td style="padding:2.5%;width:75%;vertical-align:middle">
+							<h3>{{pub.title}}</h3>
+							<br>{{pub.authors}}
+							<br>
+							<em>{{pub.publisher}}</em>, {{ pub.year | year:"%Y" }}
+							<br>
+
+						</td>
+					</tr>
+					{% endfor %}
+				</table>
+				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+					<tr>
+						<td style="padding:0px">
+							<br>
+							<p style="text-align:center;font-size:small;">
+								Website design by <a style="font-size:small;" href="https://www.jonbarron.info">John Barron</a> and <a style="font-size:small;" href="https://www.leonidk.com">Leonid Keselman</a>.
+							</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>

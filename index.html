@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="/assets/css/stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -22,27 +23,24 @@
 						<td style="padding:2.5%;width:60%;vertical-align:middle">
 							<h1>Derin Sevenler</h1>
 							<p>
-								I'm a postdoctoral research fellow working with Mehmet Toner at the Center for Engineering in Medicine at Massachusetts General Hospital. I'm affiliated with Harvard Medical School and the Broad Institute of Harvard and MIT.
+								I'm a postdoctoral research fellow working with <a href="https://www.massgeneral.org/surgery/cem/faculty-and-staff/mehmet-toner">Mehmet Toner</a> at the <a href="https://www.massgeneral.org/surgery/cem/">Center for Engineering in Medicine</a> at <a href="https://www.massgeneral.org/research">Massachusetts General Hospital</a> in Boston, MA.
 							</p>
 							<p>
-								<a target="_blank" href="https://github.com/derinsevenler">Github</a> &nbsp;/&nbsp;
-								<a href="https://scholar.google.com/citations?user=2QAce2gAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-								<a href="https://www.linkedin.com/in/derin-sevenler"> LinkedIn </a>
+								I'm a biomedical engineer interested in developing tools to study biology and improve human health. My graduate research involved single molecule biosensing using nano-optics and interferometry. My postdoc work is focused on clinical applications for molecular diagnostics and gene editing.
+							</p>
+							<p>
+								<a href="assets/sevenler-cv-2020.pdf">CV</a>&nbsp;&nbsp;-&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=2QAce2gAAAAJ">Google Scholar</a> &nbsp;&nbsp;-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/derin-sevenler"> LinkedIn </a>
 							</p>
 						</td>
 						<td style="padding:2.5%;width:40%;max-width:40%">
-							<img style="width:100%;max-width:100%" alt="profile photo" src="assets/images/sevenler_headshot_sm.jpg">
+							<img style="width:100%;max-width:100%" alt="profile photo" src="assets/images/sevenler_headshot.jpg">
 						</td>
 					</tr>
 				</table>
-
 				<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 					<tr>
 						<td style="padding:2.5%;width:100%;vertical-align:middle">
-							<h2>Research</h2>
-							<p>
-								My research interest is in tackling at biomedical engineering questions using techniques from applied physics. I'm particularly interested in biological nanoparticles, like including viruses and extracellular vesicles, as well as molecular recognition and sensing in biological systems. I've developed new techniques to detect, measure, and manipulate individual biomolecules and bio-nanoparticles using techniques from nanophotonics and nanotechnology. My long-term vision is to use these techniques to address emerging challenges in infectious disease diagnostics, gene therapy, and systems & synthetic biology.
-							</p>
+							<h2>Research Highlights</h2>
 						</td>
 					</tr>
 				</table>
@@ -50,16 +48,18 @@
 					
 					{% for pub in site.data.publications %}
 					<tr>
-						<td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+						<td style="padding:2.5%;width:38%;vertical-align:middle;min-width:120px">
 							<img src="/assets/images/{{pub.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
 						</td>
 						<td style="padding:2.5%;width:75%;vertical-align:middle">
 							<h3>{{pub.title}}</h3>
-							<br>{{pub.authors}}
+							<!-- <br> -->
+							{{pub.authors}}
 							<br>
-							<em>{{pub.publisher}}</em>, {{ pub.year | year:"%Y" }}
+							<em>{{pub.publication}}</em>, {{ pub.year | year:"%Y" }}
 							<br>
-
+							<br>
+							{{ pub.description }}
 						</td>
 					</tr>
 					{% endfor %}
@@ -69,7 +69,7 @@
 						<td style="padding:0px">
 							<br>
 							<p style="text-align:center;font-size:small;">
-								Website design by <a style="font-size:small;" href="https://www.jonbarron.info">John Barron</a> and <a style="font-size:small;" href="https://www.leonidk.com">Leonid Keselman</a>.
+								Website built by me with thanks to <a style="font-size:small;" href="https://jonbarron.info">John Barron</a> and <a style="font-size:small;" href="https://www.leonidk.com">Leonid Keselman</a>.
 							</p>
 						</td>
 					</tr>

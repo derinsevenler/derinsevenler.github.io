@@ -5,7 +5,7 @@
   tags: diagnostics
   link: https://doi.org/10.1021/acssensors.9b02198
   description: We developed a new way to measure whether the concentration of HIV medication in a patient's blood is high enough to be effective. It works by sensing the drug's specific pharmacological activity.
-  image: enzymatic-tfv-dp.png
+  image: enzymatic-tfv-dp.jpg
   pdf: olanrewaju-2020-enzymatic-assay.pdf
 
 - title: Beating the reaction limits of biosensor sensitivity with dynamic tracking of single binding events
@@ -15,7 +15,7 @@
   tags: diagnostics nanotechnology photonics
   link: https://doi.org/10.1073/pnas.1815329116
   description: Biomolecules at ultra-low concentrations can still be measured by tracking the duration of individual molecular binding events.
-  image: beating-reaction-limits.png
+  image: beating-reaction-limits.jpg
   pdf: sevenler-2019-dynamic-tracking.pdf
   highlight: yes
 
@@ -26,7 +26,7 @@
   tags: diagnostics nanotechnology photonics
   link: https://doi.org/10.1021/acsnano.8b02036
   description: We used plasmonic nanoparticles to develop a new type of DNA microarray scanner which counts individual captured analyte molecules.
-  image: digital-microarray.png
+  image: digital-microarray.jpg
   pdf: sevenler-2018-digital-microarrays.pdf
   highlight: yes
 
@@ -37,7 +37,7 @@
   tags: diagnostics nanotechnology photonics
   link: https://doi.org/10.1021/acsnano.5b07948
   description: You can 'see' single <100 nm viruses and extracellular vesicles with a regular microscope, with the help of a thin film reflecting substrate.
-  image: quantitative-iris.png
+  image: quantitative-iris.jpg
   pdf: sevenler-2017-quantitative-iris.pdf
   highlight: yes
 
@@ -48,7 +48,7 @@
   tags: diagnostics nanotechnology photonics
   link: https://doi.org/10.1021/acsnano.5b07948
   description: We built a robot microscope that automatically corrects for a range of common problems in interferometric imaging.
-  image: robust-visualization.png
+  image: robust-visualization.jpg
   pdf: trueb-2017-robust.pdf
 
 - title:  Real-time capture and visualization of individual viruses in complex media
@@ -58,7 +58,7 @@
   link: https://doi.org/10.1021/acsnano.5b07948
   tags: diagnostics nanotechnology nanophotonics
   description: Individual viruses in a blood sample can be quickly detected using interferometry. This doesn't require much sample preparation so it could be useful for dangerous pathogens.
-  image: real-time-capture.png
+  image: real-time-capture.jpg
   pdf: scherr-2016-real-time-capture.pdf
 
 - title: Numerical techniques for high-throughput reflectance interference biosensing
@@ -68,7 +68,7 @@
   link: https://doi.org/10.1080/09500340.2015.1117668
   tags: biosensing
   description: We developed a direct algorithm for measuring molecular binding by imaging spectroscopy. The is about 10,000x faster than the iterative algorithm we were using, and probably more accurate too.
-  image: numerical-iris.png
+  image: numerical-iris.jpg
   pdf: sevenler-2015-numerical-iris.pdf
 
 - title: Spatial periodicity in growth plate shear mechanical properties is disrupted by vitamin D deficiency
@@ -78,7 +78,7 @@
   link: https://doi.org/10.1016/j.jbiomech.2013.04.023
   tags: biomechanics
   description: We measured the mechanical properties of growth plate cartilage, which is structured like a carpet of densely packed and aligned fibers. This important structure is disrupted by vitamin D deficiency in a rat model.
-  image: growth-plate.png
+  image: growth-plate.jpg
   pdf: sevenler-2013-growth-plate.pdf
 
 

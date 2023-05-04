@@ -1,28 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: sevenler_headshot_sm.jpg
+  image_circular: true # crops the image to make it circular
+  address: 
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
+[Curriculum Vitae (PDF)](assets/pdf/2023-5 Sevenler CV HMS.pdf)
 
-Derin is an Instructor in Investigation in the Center for Engineering in Surgery & Medicine at Massachusetts General Hospital and Harvard Medical School.
+[Google Scholar](https://scholar.google.com/citations?user=2QAce2gAAAAJ&hl=en)
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Derin is an Instructor in Investigation in the [Center for Engineering in Medicine & Surgery](https://www.massgeneral.org/surgery/cems) at Massachusetts General Hospital and Harvard Medical School.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+He received a B.S. in Mechanical & Aerospace Engineering from Cornell University in 2011, and a PhD in Biomedical Engineering from Boston University in 2017. From 2018 to 2022 he worked as a postdoctoral research fellow in the laboratory of Mehmet Toner at MGH.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, he is a NIH K99/R00 investigator developing microfluidic devices and materials for high throughput _ex vivo_ delivery of genetic material and gene editing systems for applications in cell & gene therapy.

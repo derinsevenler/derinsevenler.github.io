@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Derin
 middle_name: 
-last_name: Sevenler, PhD
+last_name: Sevenler
 email: dsevenler@mgh.harvard.edu
 description: 
 footer_text: 
@@ -325,6 +325,7 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
+    # - ".gif"
   output_formats:
     webp: "-resize 800x"
 

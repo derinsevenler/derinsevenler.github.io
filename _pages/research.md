@@ -2,12 +2,17 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description:
 nav: true
 nav_order: 1
+horizontal: true
 ---
 
-The cells in our bodies use large biomolecules to store, process, and transmit information. My research program in biomedical engineering is focused on leveraging fundamental principles from the physical sciences to build new tools for 'reading' and 'writing' the molecular information encoded in these biomolecules, towards the overarching goal of improving human health and longevity. A major thrust of my current research is in developing technologies to improve the safety, efficiency, and accessibility of therapeutic gene editing. I am particularly interested in technology to enable editing large numbers of cells outside of the body, which could have signficant clinical impacts across cancer therapy, global health, regenerative medicine, autoimmune disease, and metabolic disorders.
+{% include figure.html path="assets/img/squishy_talk.jpg" title="Squishy physics seminar" class="img-fluid rounded z-depth-1" %} 
+
+The cells in our bodies use large biomolecules such as DNA, RNA, and proteins to store information and control chemical reactions. My research program in biomedical engineering is focused on leveraging fundamental principles from the physical sciences to precisely measure the biomolecules in our bodies and even deliver new ones into our cells, towards the overarching goal of improving human health and longevity.
+
+A major thrust of my current research is developing technologies to improve the safety, efficiency, and accessibility of therapeutic gene editing. I am particularly interested in technologies for editing large numbers of cells outside of the body, which could have signficant clinical impacts across cancer therapy, global health, regenerative medicine, autoimmune disease, and metabolic disorders.
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=2QAce2gAAAAJ&hl=en)
 
@@ -15,23 +20,26 @@ The cells in our bodies use large biomolecules to store, process, and transmit i
 
 # Highlights
 
-## High throughput intracellular delivery by viscoelastic mechanoporation
-
-{% include figure.html path="assets/img/viscoelastic_mechanoporation.gif" title="viscoelastic mechanoporation" class="img-fluid rounded z-depth-1" %} 
-
-Since 2016, dozens of clinical trials have been approved to study the use of CRISPR gene editing to create cell therapy products. However, the efficiency of gene editing in these trials has been very low (typically only 5%-20%) and the process for delivering the CRISPR enzyme into the cells also damages them. We recently invented a high throughput method of delivering large biomolecules such as CRISPR ribonucleoproteins into mammalian cells outside the body. As of July 2023 this approach was the fastest microfluidic delivery technology reported in the literature, and fast enough to be feasible for producing cell therapies that require hundreds of millions of engineered cells per dose. This achievement was enabled by leveraging the non-Newtonian properties of viscoelastic fluids to stretch and temporarily permeabilize the plasma membrane of cells without any contact with a solid surface or needle.
-
-- Sevenler, D.; Toner, M. High Throughput Intracellular Delivery by Viscoelastic Mechanoporation. bioRxiv April 28, 2023, p 2023.04.24.538131. https://doi.org/10.1101/2023.04.24.538131.
-
-## Real-time ultrasensitive biomolecule detection
-
-{% include figure.html path="/assets/img/dynamic_detection.gif" title="dynamic detection" class="img-fluid rounded z-depth-1" %} 
-
-Low-abundance molecular biomarkers are a promising reservoir of diagnostic information for the early detection and precise treatment of a range of diseases. However, most ultrasensitive assay technologies remain fundamentally limited by the non-ideal binding affinity of the molecular recognition probe. In 2019, we showed that this binding 'reaction limit' could be surpassed by measuring the duration of individual molecular binding events as they happen in real time, across a surface with billions of probes. This achievement was enabled by our prior work developing a record-breaking nanoparticle imaging system that could detect individual 60 nm nanoparticles across the entire field of view of a 10x microscope objective. For the sake of comparison, this is like detecting and tracking individual 2 meter tall people across a region about five times the size of Boston, or about half the size of Los Angeles (21 km by 29 km).
-
-- Sevenler, D.; Trueb, J.; Ünlü, M. S. Beating the Reaction Limits of Biosensor Sensitivity with Dynamic Tracking of Single Binding Events. PNAS 2019, 201815329. https://doi.org/10.1073/pnas.1815329116.
-- Sevenler, D.; Daaboul, G. G.; Ekiz Kanik, F.; Ünlü, N. L.; Ünlü, M. S. Digital Microarrays: Single-Molecule Readout with Interferometric Detection of Plasmonic Nanorod Labels. ACS Nano 2018, 12 (6), 5880–5887. https://doi.org/10.1021/acsnano.8b02036.
-
+<div class="projects">
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-1">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+</div>
 
 
 

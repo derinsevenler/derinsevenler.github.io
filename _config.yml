@@ -47,13 +47,11 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 
 # Dimensions
 max_width: 800px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
@@ -166,6 +164,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -325,7 +326,7 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-    # - ".gif"
+    - ".gif"
   output_formats:
     webp: "-resize 800x"
 

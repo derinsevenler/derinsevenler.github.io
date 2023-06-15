@@ -11,5 +11,7 @@ _"Derin was my saving grace. I stayed after class all the time to ask questions 
 
 - Course evaluation, Spring 2023, Harvard University [ES123: Fluid Mechanics and Transport Processes](https://seas.harvard.edu/materials-science-mechanical-engineering/courses)
 
-![Giant bubble](/assets/img/bubbles-seas-1.jpg)
+
+{% include figure.html path="assets/img/bubbles-seas-2.jpg" title="Giant bubble" class="img-fluid rounded z-depth-1" %} 
+
 

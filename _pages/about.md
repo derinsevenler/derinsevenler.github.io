@@ -1,12 +1,12 @@
 ---
 layout: about
-title: About
+title: Bio
 permalink: /
 subtitle: 
 
 profile:
-  align: left
-  image: sevenler_headshot_sm.jpg
+  align: right
+  image: 2022 headshot.jpg
   image_circular: true # crops the image to make it circular
   address: 
 
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Derin is a NIH K99 Investigator at Massachusetts General Hospital and an Instructor at Harvard Medical School. He received his B.S. in Mechanical & Aerospace Engineering from Cornell University in 2011, and his Ph.D. in Biomedical Engineering from Boston University in 2017. From 2018-2022 he was a postdoctoral fellow in the laboratory of Mehmet Toner at MGH. His [research](research) in biomedical engineering is focused on discovering new ways to measure and control biology at the nanoscale, and applying those discoveries to address translational applications in molecular diagnostics, therapeutics, and disease prevention.
+Derin is a NIH K99 Investigator at Massachusetts General Hospital and an Instructor at Harvard Medical School. He received a B.S. in Mechanical & Aerospace Engineering from Cornell University (2008-2011) and his Ph.D. in Biomedical Engineering from Boston University (2011-2017). From 2018 to 2022 he was a postdoctoral fellow in the laboratory of Mehmet Toner at MGH. His research is focused on discovering new ways to measure and control biology at the nanoscale, and applying those discoveries to address translational applications in molecular diagnostics, therapeutics, and disease prevention.
 
 [Google Scholar](https://scholar.google.com/citations?user=2QAce2gAAAAJ&hl=en)
 

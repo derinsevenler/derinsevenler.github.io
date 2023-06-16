@@ -4,6 +4,7 @@ permalink:
 title: High throughput intracellular delivery by viscoelastic mechanoporation
 img: assets/img/viscoelastic_mechanoporation.gif
 nav: false
+current: true
 importance: 1
 ---
 

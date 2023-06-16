@@ -4,6 +4,7 @@ permalink:
 title: Real-time tracking of single biomolecular binding events
 img: assets/img/dynamic_detection.gif
 nav: false
+current: false
 importance: 2
 ---
 

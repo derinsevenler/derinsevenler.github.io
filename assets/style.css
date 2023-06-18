@@ -12,6 +12,7 @@ img {
     border-radius:4px;
 }
 h1, h2, h3{
+    font-size: ;
     text-align:center;
     color: #2d3841;
 }
@@ -22,27 +23,31 @@ h4{
 
 th,td {
     padding: 0px 8px 8px 2px;
+    font-size: medium;
+}
+a {
+    color: black;
 }
 
 .menu {
     font-size: large;
     
 }
-a {
-    color: black;
-}
 
 .profile-picture {
     border-radius: 50%;
     float:right;
-    width:200px;
+    width:300px;
     margin: 0em 2em 1em 2em;
 }
+.awards{
+    margin: 2px auto;
+}
+
 .research-picture{
-    width:250px;
+    width:300px;
 }
 .teaching-picture{
-    max-width:600px;
     width:100%;
     display:block;
     margin:auto;

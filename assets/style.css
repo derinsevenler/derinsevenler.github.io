@@ -45,11 +45,8 @@ a {
     text-size-adjust: none;
     -webkit-text-size-adjust: none;
 }
-.projects{
-    margin: 2px auto;
-}
 .research-picture{
-    width:300px;
+    width:250px;
 }
 .teaching-picture{
     width:100%;

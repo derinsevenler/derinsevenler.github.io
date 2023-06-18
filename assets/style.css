@@ -3,8 +3,6 @@ html{
     margin: 0 auto;
     max-width: 1000px;
     font-family: 'PT Serif', serif;
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
 }
 body {
     margin: 4px 16px 4px 16px;
@@ -26,6 +24,8 @@ h4{
 th,td {
     padding: 0px 8px 8px 2px;
     font-size: medium;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 a {
     color: black;
@@ -39,8 +39,8 @@ a {
 .profile-picture {
     border-radius: 50%;
     float:right;
-    width:300px;
-    margin: 0em 2em 1em 2em;
+    width:250px;
+    margin: 0.5em 1em 0.5em 1em;
 }
 .awards{
     margin: 2px auto;

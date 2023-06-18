@@ -24,8 +24,6 @@ h4{
 th,td {
     padding: 0px 8px 8px 2px;
     font-size: medium;
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
 }
 a {
     color: black;
@@ -44,8 +42,12 @@ a {
 }
 .awards{
     margin: 2px auto;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
-
+.projects{
+    margin: 2px auto;
+}
 .research-picture{
     width:300px;
 }
@@ -55,10 +57,6 @@ a {
     margin:auto;
 }
 
-.bio-container {
-    display: flex;
-    flex-wrap: wrap;
-}
 .menu{
     text-align:right;
 }

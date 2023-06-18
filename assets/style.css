@@ -1,0 +1,60 @@
+html{
+    background: #FCFDF9;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: 'PT Serif', serif;
+}
+body {
+    margin: 4px 16px 4px 16px;
+}
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius:4px;
+}
+h1, h2, h3{
+    text-align:center;
+    color: #2d3841;
+}
+h4{
+    color: #2d3841;
+    margin: 2px auto;
+}
+
+th,td {
+    padding: 0px 8px 8px 2px;
+}
+
+.menu {
+    font-size: large;
+    
+}
+a {
+    color: black;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    float:right;
+    width:200px;
+    margin: 0em 2em 1em 2em;
+}
+.research-picture{
+    width:250px;
+}
+.teaching-picture{
+    max-width:600px;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+
+.bio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    text-align:right;
+}
+.footer{
+    text-align:center
+}

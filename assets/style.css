@@ -3,6 +3,8 @@ html{
     margin: 0 auto;
     max-width: 1000px;
     font-family: 'PT Serif', serif;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
 }
 body {
     margin: 4px 16px 4px 16px;

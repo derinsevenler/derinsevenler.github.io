@@ -1,0 +1,10 @@
+node_modules/
+*.DS_Store
+examples/shells/*
+examples/fdtd/*
+examples/squeegee/*
+examples/soft-body/*
+examples/smoothlife/*
+examples/test/*
+docs/main-image.psd
+docs/main-image.png

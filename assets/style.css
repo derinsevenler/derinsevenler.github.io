@@ -11,8 +11,8 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius:4px;
 }
+
 h1, h2, h3{
-    font-size: ;
     text-align:center;
     color: #2d3841;
 }
@@ -29,9 +29,21 @@ a {
     color: black;
 }
 
+.project{
+    overflow: hidden;
+}
+
 .menu {
     font-size: large;
-    
+    text-align:right;
+}
+.footer{
+    text-align:center
+}
+
+
+.awards{
+    margin: 2px auto;
 }
 
 .profile-picture {
@@ -40,23 +52,32 @@ a {
     width:250px;
     margin: 0.5em 1em 0.5em 1em;
 }
-.awards{
-    margin: 2px auto;
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-}
+
 .research-picture{
-    width:250px;
+    width:320px;
+    float:left;
+    margin: 1em 2em 1em 2em;
 }
+
 .teaching-picture{
-    width:100%;
+    float:none;
+    width:95%;
     display:block;
     margin:auto;
 }
 
-.menu{
-    text-align:right;
+@media all and (max-width:640px) {
+    .profile-picture{
+        float:none;
+        display:block;
+        margin:0 auto;
+        width:250px;
+    }
+    .research-picture{
+        float:none;
+        display:block;
+        margin: 0 auto;
+        width:80%;
+    }
 }
-.footer{
-    text-align:center
-}
+
